@@ -48,5 +48,18 @@ public class LineComparsion {
 		else {
 			System.out.println("Length is not equal to Length1");
 		}
+	
+
+		if(Length == Length1) {
+			System.out.println("Length is equal to Length1");
+		}
+		else if(Length > Length1) {
+			System.out.println("Length is greater than Length1");
+		}
+		else {
+			System.out.println("Length is less than Length1");
+
+		}
+
 	}
 }
